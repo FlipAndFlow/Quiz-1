@@ -27,14 +27,16 @@ body {
     flex-direction: column;
     align-items: flex-start;
     width: 15%;
+    box-sizing: border-box;
 
 }
 
 .Left_page {
-    border: double 5px;
-    width: 94.5%;
+    box-sizing: border-box;
+    width: 100%;
+    border: 4px double #000;
     margin: auto;
-    height: 30px;
+    height: 40px;
     font-size: 18px;
     align-items: center;
     display: flex;
